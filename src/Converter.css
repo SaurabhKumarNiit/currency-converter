@@ -1,0 +1,59 @@
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .amount{
+    width: 97%;
+  }
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  p {
+    margin: 8px 0;
+  }
+  .summary{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .summary h2{
+    font-size: 40px;
+  }
+  @media (max-width: 780px) {
+    .container {
+      padding: 15px;
+    }
+  
+    .summary h2 {
+      font-size: 24px;
+    }
+  
+    input,
+    select {
+      font-size: 14px;
+    }
+  
+    p {
+      font-size: 14px;
+    }
+  }
