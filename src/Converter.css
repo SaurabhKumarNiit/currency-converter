@@ -8,12 +8,22 @@
   border: 1px solid #ccc;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  animation: fadeIn 4s forwards;
 }
-  
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
   .container {
     max-width: 950px;
     margin: 50px auto;
-    padding: 20px;
+    padding: 80px;
     background-color: white;
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -21,7 +31,6 @@
   }
   .main{
     display: flex;
-  
   }
   .child-main {
     flex: 1;
@@ -52,6 +61,8 @@ width: 93%;
   
   input,
   select {
+    font-size: 16px;
+    font-weight: bold;
     width: 100%;
     margin-bottom: 16px;
     border: 1px solid #ccc;

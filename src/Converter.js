@@ -114,7 +114,7 @@ const ConvertData = () => {
       <h2>{amount} {fromCurrency} to {toCurrency}  =  {handleToCountryCurrency(fromCurrency)} to {handleToCountryCurrency(toCurrency)} </h2>
 
       <div className='container'>
-        <h1>Currency Converter</h1>
+        {/* <h1>Currency Converter</h1> */}
 
         <div className='main'>
           <div className='child-main'>
