@@ -1,15 +1,43 @@
+.main-container{
+  text-align: center;
+  /* background-image: url(''); */
+  max-width: 1250px;
+  height: 640px;
+  margin:  auto;
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
   
   .container {
-    max-width: 800px;
+    max-width: 950px;
     margin: 50px auto;
     padding: 20px;
+    background-color: white;
     border: 1px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
-  .amount{
-    width: 97%;
+  .main{
+    display: flex;
+  
   }
+  .child-main {
+    flex: 1;
+    margin: 0 5px;
+    padding: 10px;
+ 
+  }
+  .child-main select{
+    padding: 15px;
+  }
+
+  .child-main input{
+padding: 15px;
+width: 93%;
+  }
+
   h1 {
     text-align: center;
     color: #333;
@@ -18,12 +46,13 @@
   label {
     display: block;
     margin-bottom: 8px;
+    font-family:sans-serif;
+    font-weight: 700;
   }
   
   input,
   select {
     width: 100%;
-    padding: 10px;
     margin-bottom: 16px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -39,7 +68,13 @@
   .summary h2{
     font-size: 40px;
   }
-  @media (max-width: 780px) {
+  @media (max-width: 768px) {
+    .child-main {
+      margin-top: 20px;
+    }
+    .main{
+      display: block;
+    }
     .container {
       padding: 15px;
     }
