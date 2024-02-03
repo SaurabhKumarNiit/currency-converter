@@ -133,7 +133,7 @@ const ConvertData = () => {
             </select>
           </div>
           <div className='child-main'>
-            <label>From</label>
+            <label>To</label>
             <select value={toCurrency} onChange={handleToCurrencyChange}>
               {currencies.map(currency => (
                 <option key={currency} value={currency}>
