@@ -1,5 +1,5 @@
 import './App.css';
-import ConvertData from './Converter';
+import ConvertData from './components/Converter';
 function App() {
   return (
     <div className="App">
